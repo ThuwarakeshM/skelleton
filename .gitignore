@@ -125,3 +125,4 @@ package-lock.json
 
 #volumes
 pgadmin/
+postgres/
