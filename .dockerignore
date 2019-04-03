@@ -1,0 +1,9 @@
+# Package Management
+env/
+node_modules/
+
+# Source Control
+.git/
+
+# Editor
+.vscode/
