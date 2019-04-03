@@ -2,7 +2,7 @@ version: '3'
 
 services:
   db:
-    image: postgres
+    image: postgres:alpine
     volumes: 
       - ./postgres:/var/lib/postgresql/data
     env_file: 
@@ -28,4 +28,5 @@ services:
       - vars.env
     depends_on:
       - db
-    
+    logging:
+      driver: none
